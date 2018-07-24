@@ -1,4 +1,4 @@
-CFLAGS = -O3 -Wall -fstrict-aliasing -std=c99
+CFLAGS = -O3 -march=native -Wall -fstrict-aliasing -std=c99
 
 test:main
 	@echo
